@@ -1,0 +1,58 @@
+:root {
+  --height-header: 200px;
+}
+.header {
+  background-color: teal;
+  color: var(--white);
+  min-height: var(--height-header);
+
+  &__wrapper {
+    > .iko-row {
+      @include flex(center, center);
+      min-height: var(--height-header);
+    }
+  }
+
+  &__img {
+    img {
+      width: 150px;
+      margin: auto;
+      border-radius: 50%;
+    }
+  }
+
+  &__title {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+
+    &__sub {
+      font-size: 28px;
+    }
+  }
+
+  &__info {
+    &__item {
+      @include flex(center, flex-start);
+      margin-bottom: 5px;
+
+      &__icon {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: teal;
+  text-align: center;
+  color: white;
+  .iko-row {
+    height: 80px;
+    @include flex(center, center);
+  }
+
+  &__copyright {
+    text-align: center;
+  }
+}
