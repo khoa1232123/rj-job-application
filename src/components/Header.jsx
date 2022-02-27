@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { IkoCol, IkoContainer, IkoRow } from "../ikoComponents";
 import userIcon from "../imgs/user-icon.jpg";
 
 const Header = () => {
+  const headerRef = useRef(null);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (
+        document.body.scrollTop > 100 ||
+        document.documentElement.scrollTop > 100
+      ) {
+        headerRef.current.classList.add("sticky");
+      } else {
+        headerRef.current.classList.remove("sticky");
+      }
+    });
+    return () => {
+      window.removeEventListener("scroll");
+    };
+  }, []);
+
   return (
-    <header className="header">
+    <header className="header" ref={headerRef}>
       <IkoContainer className="header__wrapper">
         <IkoRow>
           <IkoCol col={3} mdCol={4} smCol={12}>

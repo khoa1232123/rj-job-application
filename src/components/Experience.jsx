@@ -15,11 +15,11 @@ const Experience = () => {
         <IkoRow>
           <IkoCol>
             <div className="section__list">
-              <IkoRow col={2} className="section__item">
+              <IkoRow col={2} smCol={12} className="section__item">
                 <IkoCol className="section__item__left">
                   <div className="section__year">2020 - Hiện nay</div>
                 </IkoCol>
-                <IkoCol col={10} className="section__item__right">
+                <IkoCol col={10} smCol={12} className="section__item__right">
                   <div className="section__content">
                     <h3 className="section__content__title">
                       <span>Tự học ReactJS</span>
@@ -30,11 +30,11 @@ const Experience = () => {
                   </div>
                 </IkoCol>
               </IkoRow>
-              <IkoRow col={2} className="section__item">
+              <IkoRow col={2} smCol={12} className="section__item">
                 <IkoCol className="section__item__left">
                   <div className="section__year">2021 - 2021</div>
                 </IkoCol>
-                <IkoCol col={10} className="section__item__right">
+                <IkoCol col={10} smCol={12} className="section__item__right">
                   <div className="section__content">
                     <h3 className="section__content__title">
                       Công ty Youtech
@@ -47,11 +47,11 @@ const Experience = () => {
                   </div>
                 </IkoCol>
               </IkoRow>
-              <IkoRow col={2} className="section__item">
+              <IkoRow col={2} smCol={12} className="section__item">
                 <IkoCol className="section__item__left">
                   <div className="section__year">2017 - 2020</div>
                 </IkoCol>
-                <IkoCol col={10} className="section__item__right">
+                <IkoCol col={10} smCol={12} className="section__item__right">
                   <div className="section__content">
                     <h3 className="section__content__title">
                       Công ty Cleversoft
@@ -64,11 +64,11 @@ const Experience = () => {
                   </div>
                 </IkoCol>
               </IkoRow>
-              <IkoRow col={2} className="section__item">
+              <IkoRow col={2} smCol={12} className="section__item">
                 <IkoCol className="section__item__left">
                   <div className="section__year">2013 - 2016</div>
                 </IkoCol>
-                <IkoCol col={10} className="section__item__right">
+                <IkoCol col={10} smCol={12} className="section__item__right">
                   <div className="section__content">
                     <h3 className="section__content__title">
                       Công ty BictWeb

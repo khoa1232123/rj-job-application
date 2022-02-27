@@ -15,11 +15,11 @@ const Education = () => {
         <IkoRow>
           <IkoCol>
             <div className="section__list">
-              <IkoRow col={2} className="section__item">
+              <IkoRow col={2} smCol={12} className="section__item">
                 <IkoCol className="section__item__left">
                   <div className="section__year">2010 - 2014</div>
                 </IkoCol>
-                <IkoCol col={10} className="section__item__right">
+                <IkoCol col={10} smCol={12} className="section__item__right">
                   <div className="section__content">
                     <h3 className="section__content__title">
                       Đại học Công nghệ GTVT{" "}

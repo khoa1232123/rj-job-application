@@ -9,6 +9,7 @@ import {
 } from "./components";
 
 function App() {
+  document.title = "Nguyễn Đình Khôi";
   return (
     <div className="App">
       <Header />
