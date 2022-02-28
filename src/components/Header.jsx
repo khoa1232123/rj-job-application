@@ -109,7 +109,7 @@ const Header = () => {
                 <IkoCol col={4} mdCol={6} smCol={12}>
                   <div className="header__info__item">
                     <div className="header__info__item__icon">
-                      <i className="far fa-folder-open"></i>
+                      <i className="fad fa-download"></i>
                     </div>
                     <div className="header__info__item__txt">
                       <a
