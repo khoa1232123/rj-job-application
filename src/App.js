@@ -1,3 +1,4 @@
+import { print } from "react-pdf-print";
 import {
   Career,
   Education,
@@ -7,11 +8,9 @@ import {
   Project,
   Skill,
 } from "./components";
-import Printer, { print } from "react-pdf-print";
-
-const ids = [1, 2];
 
 function App() {
+  const ids = [1, 2];
   document.title = "Nguyễn Đình Khôi";
   return (
     <div className="App">
@@ -27,8 +26,6 @@ function App() {
       <Career />
       <Skill />
       <Education />
-      {/* </div>
-        <div id={ids[1]} style={{ width: "210mm", height: "297mm" }}> */}
       <Experience />
       <Project />
       <Footer />

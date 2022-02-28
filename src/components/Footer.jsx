@@ -3,7 +3,7 @@ import { IkoCol, IkoContainer, IkoRow } from "../ikoComponents";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <div className="footer">
       <IkoContainer>
         <IkoRow>
           <IkoCol>
@@ -13,7 +13,7 @@ const Footer = () => {
           </IkoCol>
         </IkoRow>
       </IkoContainer>
-    </footer>
+    </div>
   );
 };
 
