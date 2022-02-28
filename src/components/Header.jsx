@@ -35,7 +35,7 @@ const Header = () => {
             <h3 className="header__title_sub">ReactJS Developer</h3>
             <div className="header__info">
               <IkoRow>
-                <IkoCol col={4} mdCol={6} smCol={12}>
+                <IkoCol col={6} mdCol={6} smCol={12}>
                   <div className="header__info__item">
                     <div className="header__info__item__icon">
                       <i className="fas fa-venus-mars"></i>
@@ -43,7 +43,7 @@ const Header = () => {
                     <div className="header__info__item__txt">Nam</div>
                   </div>
                 </IkoCol>
-                <IkoCol col={4} mdCol={6} smCol={12}>
+                <IkoCol col={6} mdCol={6} smCol={12}>
                   <div className="header__info__item">
                     <div className="header__info__item__icon">
                       <i className="fas fa-birthday-cake"></i>
@@ -51,7 +51,7 @@ const Header = () => {
                     <div className="header__info__item__txt">19/06/1994</div>
                   </div>
                 </IkoCol>
-                <IkoCol col={4} mdCol={6} smCol={12}>
+                <IkoCol col={6} mdCol={6} smCol={12}>
                   <div className="header__info__item">
                     <div className="header__info__item__icon">
                       <i className="fas fa-phone-alt"></i>
@@ -63,7 +63,7 @@ const Header = () => {
                     </div>
                   </div>
                 </IkoCol>
-                <IkoCol col={4} mdCol={6} smCol={12}>
+                <IkoCol col={6} mdCol={6} smCol={12}>
                   <div className="header__info__item">
                     <div className="header__info__item__icon">
                       <i className="fas fa-map-marked"></i>
@@ -73,7 +73,7 @@ const Header = () => {
                     </div>
                   </div>
                 </IkoCol>
-                <IkoCol col={4} mdCol={6} smCol={12}>
+                <IkoCol col={6} mdCol={6} smCol={12}>
                   <div className="header__info__item">
                     <div className="header__info__item__icon">
                       <i className="far fa-envelope"></i>
@@ -89,7 +89,7 @@ const Header = () => {
                     </div>
                   </div>
                 </IkoCol>
-                <IkoCol col={4} mdCol={6} smCol={12}>
+                <IkoCol col={6} mdCol={6} smCol={12}>
                   <div className="header__info__item">
                     <div className="header__info__item__icon">
                       <i className="fas fa-globe"></i>

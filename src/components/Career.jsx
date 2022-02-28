@@ -18,7 +18,7 @@ const Career = () => {
               <p>- Có một công việc ổn định phù hợp với bản thân</p>
               <p>
                 - Luôn cố gắng để nâng cao trình độ để trở thành một nhân viên
-                xuất sắc trong lĩnh vực mình đảm nhiệm
+                xuất sắc trong lĩnh vực mình đảm nhiệm.
               </p>
               <p>
                 - Học hỏi, tích lũy thêm kinh nghiệm, kiến thức, rèn luyện kỹ

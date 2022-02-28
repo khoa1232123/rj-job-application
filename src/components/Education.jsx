@@ -27,7 +27,7 @@ const Education = () => {
                     </h3>
                     <div className="section__desc">
                       <p>
-                        <b>Bằng cấp: </b>Cử nhân
+                        <b>Bằng cấp: </b>Kỹ sư
                       </p>
                       <p>
                         <b>Loại tốt nghiệp: </b>Khá

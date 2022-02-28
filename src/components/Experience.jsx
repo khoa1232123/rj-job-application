@@ -41,8 +41,8 @@ const Experience = () => {
                       <span> - Nhân viên lập trình Font-end (Wordpress)</span>
                     </h3>
                     <div className="section__desc">
-                      <p>- Viết Theme core</p>
-                      <p>- Viết Plugin cho theme</p>
+                      <p>- Viết theme core</p>
+                      <p>- Viết plugin cho theme</p>
                     </div>
                   </div>
                 </IkoCol>
@@ -58,6 +58,7 @@ const Experience = () => {
                       <span> - Nhân viên lập trình Font-end (Wordpress)</span>
                     </h3>
                     <div className="section__desc">
+                      <p>- Tạo theme, update và sửa lỗi theme</p>
                       <p>- Lập trình các chức năng cho sản phẩm</p>
                       <p>- Hỗ trợ sửa lỗi cho khách hàng</p>
                     </div>
@@ -75,6 +76,7 @@ const Experience = () => {
                       <span> - Nhân viên lập trình Font-end (Wordpress)</span>
                     </h3>
                     <div className="section__desc">
+                      <p>- Tạo theme, update và sửa lỗi theme</p>
                       <p>- Lập trình các chức năng cho sản phẩm</p>
                       <p>- Hỗ trợ sửa lỗi cho khách hàng</p>
                     </div>
