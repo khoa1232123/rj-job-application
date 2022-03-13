@@ -4,7 +4,7 @@
 
 .App {
   position: relative;
-  // padding-top: var(--height-header);
+  padding-top: var(--height-header);
 
   @include mobile {
     padding-top: 380px;
@@ -16,40 +16,40 @@
   color: var(--white);
   min-height: var(--height-header);
   transition: 300ms;
-  // position: fixed;
-  // z-index: 9;
-  // width: 100%;
-  // top: 0;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  top: 0;
 
-  // &.sticky {
-  //   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  //   // min-height: 100px;
+  &.sticky {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    min-height: 100px;
 
-  //   .header {
-  //     &__img {
-  //       img {
-  //         width: 75px;
-  //         margin: auto;
-  //         border-radius: 50%;
-  //       }
-  //     }
+    .header {
+      &__img {
+        img {
+          width: 75px;
+          margin: auto;
+          border-radius: 50%;
+        }
+      }
 
-  //     &__wrapper {
-  //       > .iko-row {
-  //         @include flex(center, center);
-  //         min-height: 100px;
-  //       }
-  //     }
+      &__wrapper {
+        > .iko-row {
+          @include flex(center, center);
+          min-height: 100px;
+        }
+      }
 
-  //     &__info {
-  //       display: none;
-  //     }
+      &__info {
+        display: none;
+      }
 
-  //     &__title_sub {
-  //       margin-bottom: 0;
-  //     }
-  //   }
-  // }
+      &__title_sub {
+        margin-bottom: 0;
+      }
+    }
+  }
 
   &__wrapper {
     > .iko-row {

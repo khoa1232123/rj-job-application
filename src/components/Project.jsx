@@ -16,6 +16,35 @@ const Project = () => {
           <IkoCol>
             <IkoRow col={2} className="section__item">
               <IkoCol className="section__item__left">
+                <div className="section__year">Music - iKo</div>
+              </IkoCol>
+              <IkoCol col={10} smCol={12} className="section__item__right">
+                <div className="section__content">
+                  <h3 className="section__content__title">
+                    <a
+                      href="https://khoa1232123.github.io/rj-ikomb3/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://khoa1232123.github.io/rj-ikomb3/
+                    </a>
+                  </h3>
+                  <div className="section__desc">
+                    <p>
+                      <b>Chức năng: </b>
+                      Chạy nhạc, next bài, prev bài, chạy lại, chạy random, chọn
+                      bài ưa thích, nghe danh sách nhạc gần đây...
+                    </p>
+                    <p>
+                      <b>Công nghệ: </b>
+                      ReactJS
+                    </p>
+                  </div>
+                </div>
+              </IkoCol>
+            </IkoRow>
+            <IkoRow col={2} className="section__item">
+              <IkoCol className="section__item__left">
                 <div className="section__year">Khám bệnh</div>
               </IkoCol>
               <IkoCol col={10} smCol={12} className="section__item__right">
